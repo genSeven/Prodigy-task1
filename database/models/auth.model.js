@@ -42,7 +42,7 @@ const userSchema = new mongoose.Schema({
         trim:true,
     },
     ward:{
-        type:String,
+        type:Int,
         required:true,
         trim:true,
     },
